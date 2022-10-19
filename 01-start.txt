@@ -1,0 +1,53 @@
+Malik HARRIZ
+
+malik.h@webdevpro.net
+
+SQL aujourd'hui 
+
+--------------------
+
+support de cours => sous forme de site internet
+https://formation.webdevpro.net/sql
+login : sql
+password : sql
+
+
+=> github 
+
+--------------------
+
+démarrer Visual Studio Code > extension > rechercher "sqlite" > SQLITE de alexcvzz
+
+SQLITE => extension SQLITE de alexcvzz
+
+
+SGBD => Système de Gestion de base de DOnnées léger 
+pas besoin d'installer un serveur
+juste besoin de créer un fichier 
+
+demo.db
+demo.sqlite
+
+CREATE DATABASE demo ; // MySQL MariaDB 
+
+demo.db // créer un fichier 
+
+-------------------
+
+// créer des tables 
+
+Clique droit sur le fichier (base) > Open database 
+Nouvelle section > SQLITE Explorer 
+
+Créer une première table 
+
+ETUDIANT qui contient 4 colonnes 
+
+id PK 
+nom chaine de caractères de maximum 100 lettres
+age chiffre entier
+dt_creation AAAAMJJ 
+
+
+
+ 
