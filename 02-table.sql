@@ -15,7 +15,6 @@
 -- cette colonne s'appelle id 
 -- id_etudiant
 -- contient un entier qui va s'incrémenter qui va augmenter de +1 pour chaque ligne ajotuée
-
 CREATE TABLE etudiant (
  id INTEGER PRIMARY KEY AUTOINCREMENT, -- syntaxe SQLITE 
  nom VARCHAR(100),

@@ -37,6 +37,7 @@ VALUES
 (40, 3 ) ,
 (50 , 1) ;
 
+
 // fk => foreign key clé étrangère
 // a le nom de la table avec laquelle on veut réaliser l'association
 // id la colonne dans la table associée sur laquel on va réaliser l'association
