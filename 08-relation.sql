@@ -1,4 +1,4 @@
-CREATE TABLE a (
+CCREATE TABLE a (
     id INTEGER PRIMARY KEY AUTOINCREMENT ,
     nom VARCHAR(50)
 );
@@ -56,4 +56,6 @@ id   nom
 b 
 id   depenses 
 1    50
+
+
 
