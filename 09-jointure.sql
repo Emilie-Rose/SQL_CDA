@@ -37,8 +37,8 @@ FROM b
 RIGHT JOIN a
 ON a.id = b.fk_a_id ;
 
-
-INSERT INTO b (depenses , fk_a_id ) VALUES ( 150 , 15 );
+PRAGMA foreign_keys = ON;
+INSERT INTO b (depenses , fk_a_id ) VALUES ( 150 , 30 );
 
 SELECT nom , depenses 
 FROM a 
@@ -46,3 +46,9 @@ LEFT JOIN b
 ON a.id = b.fk_a_id ;
 
 -- https://forms.gle/h5va1YoiPPAJ1xWJ6
+
+-- SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+
+DELETE FROM b WHERE id IN (8)
+
+INSERT INTO commande ( id_produit  ) VALUES (1)
